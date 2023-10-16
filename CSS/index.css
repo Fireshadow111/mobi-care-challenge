@@ -1,0 +1,71 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('/images/poly2.jpg');
+}
+
+
+.nav-bar{
+  width: 100%;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  border-right: 1px solid;
+  border-left: 1px solid;
+  padding-right: 18px;
+  padding-left: 18px;
+  transition: padding-bottom 0.5;
+}
+
+nav ul li a:hover{
+  border-bottom: 1px solid;
+  padding-bottom: 18px;
+  color: red;
+}
+  
+
+.logo{
+  margin-right: 50px;
+}
+
+.image-div{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
+.image-div img{
+  width: 20%;
+  margin: 20px;
+}
+
+img:hover{
+  opacity: 0.8;
+}
